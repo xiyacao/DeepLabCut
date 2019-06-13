@@ -1,6 +1,6 @@
 ### command to do keypoint analysis:
 
-#### import deeplabcut
+import deeplabcut
 #### vdeeplabcut.create_new_project('demo','xiya',['/home/xiya/ROAR/code/path_to_video.mp4'])
 #### path_config = '/path_to_config_file/config.yaml'
 #### deeplabcut.extract_frames(path_config, 'manual','kmeans') # 'automatic', 'uniform'
