@@ -16,7 +16,7 @@ deeplabcut.check_labels(path_config)
 deeplabcut.create_training_dataset(path_config) 
 
 ### train NN
-deeplabcut.train_network(path_config, shuffle=1, displayiter=10, saveiters=500)  
+deeplabcut.train_network(path_config, shuffle=1, displayiters=10, saveiters=500)  
 
 deeplabcut.evaluate_network(path_config, Shuffles=[1], plotting=True)  
 
