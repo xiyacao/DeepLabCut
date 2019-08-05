@@ -3,6 +3,7 @@
 import deeplabcut
 
 deeplabcut.create_new_project('demo','xiya',['/home/xiya/ROAR/code/path_to_video.mp4'])
+#revise config file to set keypoint at first
 
 path_config = '/path_to_config_file/config.yaml'
 
